@@ -1,5 +1,5 @@
 <?php 
-  class Unicorns {
+  class Poneys {
       private $count = 8;
 
       public function getCount() {
