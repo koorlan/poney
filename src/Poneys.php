@@ -6,7 +6,7 @@
         return $this->count;
       }
 
-      public function steal($number) {
+      public function removePoneyFromField($number) {
         $this->count -= $number;
       }
   }
