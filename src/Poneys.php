@@ -9,5 +9,9 @@
       public function removePoneyFromField($number) {
         $this->count -= $number;
       }
+
+      public function getNames() {
+
+      }
   }
 ?>
