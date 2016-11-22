@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="14" assertions="15" failures="0" errors="0" time="0.000989">
+    <testsuite name="Poney" tests="13" assertions="14" failures="0" errors="0" time="0.000919">
+      <testsuite name="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" tests="13" assertions="14" failures="0" errors="0" time="0.000919">
+        <testsuite name="PoneysTest::test_removePoneyFromField" tests="8" assertions="8" failures="0" errors="0" time="0.000290">
+          <testcase name="test_removePoneyFromField with data set #0" assertions="1" time="0.000079"/>
+          <testcase name="test_removePoneyFromField with data set #1" assertions="1" time="0.000038"/>
+          <testcase name="test_removePoneyFromField with data set #2" assertions="1" time="0.000033"/>
+          <testcase name="test_removePoneyFromField with data set #3" assertions="1" time="0.000019"/>
+          <testcase name="test_removePoneyFromField with data set #4" assertions="1" time="0.000044"/>
+          <testcase name="test_removePoneyFromField with data set #5" assertions="1" time="0.000017"/>
+          <testcase name="test_removePoneyFromField with data set #6" assertions="1" time="0.000032"/>
+          <testcase name="test_removePoneyFromField with data set #7" assertions="1" time="0.000029"/>
+        </testsuite>
+        <testcase name="test_CanNotHaveNegativePoneyInField" class="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" line="27" assertions="1" time="0.000048"/>
+        <testcase name="test_addPoneyToField" class="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" line="36" assertions="1" time="0.000032"/>
+        <testcase name="test_getNamesPoneys" class="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" line="44" assertions="1" time="0.000412"/>
+        <testcase name="test_setCountPoneys" class="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" line="50" assertions="1" time="0.000040"/>
+        <testcase name="test_CanNotHaveMoreThan15Poneys" class="PoneysTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/PoneysTest.php" line="58" assertions="2" time="0.000097"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Race" tests="1" assertions="1" failures="0" errors="0" time="0.000070">
+      <testsuite name="RaceTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/RaceTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.000070">
+        <testcase name="test_CanNotHaveNegativePoneyInField" class="RaceTest" file="/home/korlan/qualite-logiciel/td/tp_etudiants/poneys/tests/RaceTest.php" line="6" assertions="1" time="0.000070"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
